@@ -1,0 +1,37 @@
+@keyframes anitry {
+    0%{
+        margin-top: 100px;
+        opacity: 0;
+    }
+    100%{
+        margin-top: 20px;
+        opacity: 1;
+
+    }
+}
+
+.imgBack{
+    animation: anitry 5s;
+    background-color: black;
+    width: 100vw;
+    position: relative;
+    margin-top: 5vh;
+    top: 100vh;
+    height: 200px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.boxc{
+    display: flex;
+    border: 1px solid black;
+    width: 40vw;
+    height: 200px;
+    font-size: xx-large;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

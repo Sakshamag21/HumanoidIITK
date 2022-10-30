@@ -1,0 +1,43 @@
+
+[
+    {
+        "id": 1,
+        "imgh":"./members/Siddesh Bharat Hazare - Siddesh B Hazare.jpg",
+        "name": "Siddesh Bharat Hazare",
+        
+        "email": "sakshamag21@iitk.ac.in"
+        
+    },
+    {
+        "id": 2,
+        "imgh":"./members/20220415_015319 - HUMANOID IITK.jpg",
+        "name": "Dishay",
+        
+        "email": "sakshamag21@iitk.ac.in"
+        
+    },
+    {
+        "id": 3,
+        "imgh":"./members/20220925_133828 - Vibhanshu Patidar.jpg",
+        "name": "Vibhashu Patidar",
+        
+        "email": "sakshamag21@iitk.ac.in"
+        
+    },
+    {
+        "id": 4,
+        "imgh":"./members/Ananya Mehrotra - Siddesh B Hazare.jpeg",
+        "name": "Ananya Mehrotra",
+        
+        "email": "sakshamag21@iitk.ac.in"
+        
+    },
+    {
+        "id": 5,
+        "imgh":"./members/WhatsApp Image 2021-08-29 at 9.57.39 PM - Madhav.jpeg",
+        "name": "Ananya Mehrotra",
+        
+        "email": "sakshamag21@iitk.ac.in"
+        
+    }
+]

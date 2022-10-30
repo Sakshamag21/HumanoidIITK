@@ -1,0 +1,111 @@
+
+[
+    {
+        "id": 1,
+        "imgh":"./members/9ECAC28F-03D9-45A5-B80E-EE53EE8ACFA4 - Sayeedul Islam Sheikh.jpeg",
+        "name": "Sayeedul Islam Sheikh"
+        
+    },
+    {
+        "id": 2,
+        "imgh":"./members/Charan Chitte - Charan Kumar Reddy.jpg",
+        "name": "Charan Kumar Reddy"
+        
+    },
+    {
+        "id": 3,
+        "imgh":"./members/Divyansh_Mittal - Divyansh Mittal.jpeg",
+        "name": "Divyansh Mittal"
+        
+    },
+    {
+        "id": 4,
+        "imgh":"./members/himanshu - Himanshu Kumar.jpg",
+        "name": "Himanshu Kumar"
+        
+    },
+    {
+        "id": 5,
+        "imgh":"./members/Humanoid_AdityaVats - HUMANOID IITK.jpeg",
+        "name": "Aditya Vats"
+        
+    },
+    {
+        "id": 6,
+        "imgh":"./members/IMG_0587 - Ashutosh Sharma.jpg",
+        "name": "Ashutosh Sharma"
+        
+    },
+    {
+        "id": 7,
+        "imgh":"./members/IMG_2920 - Aayushman Gupta.jpg",
+        "name": "Aayushman Gupta"
+        
+    },
+    {
+        "id": 8,
+        "imgh":"./members/IMG_20201206_203102 - Pankaj Agarwal.jpg",
+        "name": "Pankaj Agarwal"
+        
+    },
+    {
+        "id": 9,
+        "imgh":"./members/IMG_20220711_041344_897 - Aadvik Kumar.jpg",
+        "name": "Aadvik Kumar"
+        
+    },
+    {
+        "id": 10,
+        "imgh":"./members/IMG_20221015_002241 - Bhavaj Singla.jpg",
+        "name": "Bhavaj Singla"
+        
+    },
+    {
+        "id": 11,
+        "imgh":"./members/IMG_20221026_220531__01__01 - Moksh Jain.jpg",
+        "name": "Moksh Jain"
+        
+    },
+    {
+        "id": 12,
+        "imgh":"./members/IMG_20221030_214552 - Mridul Pandey.jpg",
+        "name": "Mridul Pandey"
+        
+    },
+    {
+        "id": 13,
+        "imgh":"./members/IMG-20221017-WA0009(1) - Apoorva Gupta.jpg",
+        "name": "Apoorva Gupta"
+        
+    },
+    {
+        "id": 14,
+        "imgh":"./members/IMG20220504104627 - Abhishek Chaudhary.jpg",
+        "name": "Abhishek Chaudhary"
+        
+    },
+    {
+        "id": 15,
+        "imgh":"./members/KRISHNANSH  - Krishnansh Agarwal.jpg",
+        "name": "Krishnansh Agarwal"
+        
+    },
+    {
+        "id": 16,
+        "imgh":"./members/Parthapratim - Parthapratim Chatterjee.jpeg",
+        "name": "Parthapratim Chatterjee"
+        
+    },
+    {
+        "id": 17,
+        "imgh":"./members/Photo_Parth - Parth Patil.jpeg",
+        "name": "Parth Patil"
+        
+    },
+    {
+        "id": 18,
+        "imgh":"./members/Sachin_Kumar - Sachin Kumar.jpg",
+        "name": "Sachin Kumar"
+        
+    }
+]

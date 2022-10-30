@@ -1,0 +1,315 @@
+.menu{
+    width: 100vw;
+    height: 60px;
+    background-color: white;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    text-align: center;
+    margin: auto;
+    display: table-cell;
+    vertical-align: middle;
+    
+}
+.logo{
+  background-image: url("../img/logoTest1.png");
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  position: fixed;
+  top: 11px;
+  left: 15px;
+  
+  z-index: 1000;
+}
+.menubutton{
+    /* display: flex;
+    float: midddle; */
+    vertical-align: middle;
+    background-color: transparent;
+    color: black;
+    border: 0px solid red;
+    font-size: 19px;
+    margin: 20px;
+    margin-top: 10px;
+    margin-left: 0;
+    border-radius: 8px;
+    height: 44px;
+}
+
+@media screen and (max-width:900px) {
+  .menubutton{
+    font-size: 16px;
+    margin-top: 14px;
+
+  }
+  .menu{
+    height: 50px;
+  }
+  
+}
+.menubutton:hover{
+   color: grey;
+   cursor: pointer;
+   border-bottom: 5px solid black;
+   border-radius: 0;
+
+}
+
+
+
+  
+
+ /* 
+ .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+  
+ .bar2 {opacity: 0;}
+  
+ .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+   */
+
+   .navigation__checkbox {
+    display: none;
+  }
+  
+  .navigation__button {
+    background-color: black;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    border-radius: 50%;
+    z-index: 2000;
+    -webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
+            box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  
+  .navigation__background {
+    height: 2vh;
+    width: 1vw;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: 50px;
+    background-color: black;
+    z-index: 1000;
+    -webkit-transition: -webkit-transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
+    transition: -webkit-transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
+    transition: transform 0.5s cubic-bezier(0.86, 0, 0.07, 1);
+    transition: transform 0.5s cubic-bezier(0.86, 0, 0.07, 1), -webkit-transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  
+
+  
+  .navigation__nav {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    top: 0;
+    left: 0;
+    z-index: 1500;
+    opacity: 0;
+    width: 0;
+    -webkit-transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .navigation__list {
+     position: absolute;
+    top: 87%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    list-style: none;
+    text-align: center;
+    /* margin: auto; */
+    width: 100%;
+    height: fit-content; 
+  }
+
+  @media screen and (min-width:600px){
+    .navigation__list{
+      top: 40%;
+    }
+  }
+  @media screen and (max-width:570px){
+    .navigation__list{
+      top: 75%;
+    }
+  }
+  @media screen and (max-width:460px){
+    .navigation__list{
+      top: 68%;
+      left: 47%;
+    }
+  }
+  @media screen and (max-width:380px){
+    .navigation__list{
+      top: 62%;
+    }
+  }
+  .navigation__item {
+     /* margin: 2.5%; 
+    display: inline-block;
+     width: 40%;  */
+     margin: 10%; 
+      width: 80%;
+  }
+
+@media  screen and (min-width:600px) {
+  .navigation__item{
+    margin: 2.5%; 
+    display: inline-block;
+     width: 40%;
+  }
+  
+}
+
+@media screen and (max-width:672px) and (min-width:600px){
+  .navigation__item{
+    width: 45%;
+    margin-right: 1.25%;
+    margin-left: 1.25%;
+  }
+}
+  
+  .navigation__link:link, .navigation__link:visited {
+    display: inline-block;
+    font-size: 6vh;
+    font-weight: 300;
+    /* padding: 1rem 2rem; */
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #fff 50%);
+    background-size: 230%;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+  }
+
+  @media screen and (max-width:340px){
+    .navigation__link:link,.navigation__link:visited{
+      font-size: 4vh;
+    }
+  }
+  @media screen and (max-width:470px){
+    .navigation__link:link,.navigation__link:visited{
+      font-size: 5vh;
+    }
+  }
+  
+  .navigation__link:link span, .navigation__link:visited span {
+    margin-right: 1.5rem;
+    display: inline-block;
+  }
+  
+  .navigation__link:hover, .navigation__link:active {
+    background-position: 100%;
+    /* color: #55c57a; */
+    color: black;
+    -webkit-transform: translateX(1rem);
+            transform: translateX(1rem);
+  }
+  
+  .navigation__checkbox:checked ~ .navigation__background {
+    -webkit-transform: scale(200);
+            transform: scale(200);
+            position: fixed;
+            height: fit-content;
+            width: 100vw;
+  }
+  
+  .navigation__checkbox:checked ~ .navigation__nav {
+    opacity: 1;
+    width: 100%;
+  }
+  
+  .navigation__icon {
+    position: relative;
+    margin-top: 7px;
+  }
+  
+   .navigation__icon,/* .navigation__icon::before,*/ .navigation__icon::after { 
+    width: 30px;
+    height: 2px;
+    
+    background-color: white;
+    display: inline-block;
+  }
+  
+   /*.navigation__icon::before,*/ .navigation__icon::after { 
+    content: "";
+    position: absolute;
+    left: 0;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+  }
+  
+  /* .navigation__icon::before {
+    top: 0.8rem;
+  } */
+  
+  .navigation__icon::after {
+    top: 12px;
+  }
+  
+  .navigation__button:hover .navigation__icon {
+    top: -0.2rem;
+  }
+  
+  .navigation__button:hover .navigation__icon::after {
+    top: 0.8rem;
+  }
+  
+  /* .navigation__checkbox:checked + .navigation__button .navigation__icon {
+    background-color: transparent;
+  } */
+  
+  .navigation__checkbox:checked + .navigation__button .navigation__icon {
+    top: 10px;
+    -webkit-transform: rotate(135deg);
+            transform: rotate(135deg);
+    background-color: white;
+  }
+  
+  .navigation__checkbox:checked + .navigation__button .navigation__icon::after {
+    top: 0px;
+    -webkit-transform: rotate(95deg);
+            transform: rotate(95deg);
+    background-color: white;
+  }
+
+@media  screen and (max-width:1020px) {
+  .menu{
+    opacity: 0;
+  }
+  .navigation{
+    opacity: 1;
+  }
+  .logo{
+    left: 50vw;
+  }
+  
+}
+ 
+@media  screen and (min-width:1020px) {
+  .menu{
+    opacity: 1;
+  }
+  .navigation{
+    opacity: 0;
+  }
+  
+}

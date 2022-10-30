@@ -1,0 +1,58 @@
+.botInfo{
+    display: flex;
+    position: relative;
+    top: 80px;
+    width: 50vw;
+    height: 100vh;
+    flex-direction: column;
+    padding-left: 40px;
+    color: lightslategrey;
+    content-visibility: auto;
+}
+.titleBot{
+    width: 100vw;
+    display: flex;
+    height: 10vh;
+    font-size: xxx-large;
+    color: white;
+    font-weight: 200;
+    background-color: black;
+    position: relative;
+    top: 80px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.botDesign{
+    background-color: black;
+    display: flex;
+    position: relative;
+    width: 100vw;
+    padding: 0 40px;
+    margin-top: -20px;
+    flex-direction: column;
+    padding-bottom: 20px;
+    color: lightslategrey;
+    content-visibility: auto;
+}
+.botImage{
+    position: relative;
+    width: 40vw;
+    top: 80px;
+    margin: 5vh 5vw;
+    height: 90vh;
+    background-image: url("../img/Screenshot9.png");
+    background-size: cover;
+}
+.botCover{
+    background-color: black;
+    display: flex;
+}
+.titleH{
+    font-size: x-large;
+    color: white;
+    font-weight: 300;
+    margin: 20px 0;
+    width: fit-content;
+    border-bottom: 2px solid white;
+}

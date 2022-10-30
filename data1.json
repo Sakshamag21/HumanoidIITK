@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "imgh":"https://varananda.com/wp-content/uploads/2021/03/Car.jpg",
+        "name": "Bot Name",
+        "description":"Tarang is our third Autonomous Underwater Vehicle. Tarang has a robust, leak-proof and lightweight central hull made from carbon fiber. It has sensors like IMU, DVL and cameras on-board and can efficiently perform tasks like torpedo shooting, localization in an unknown underwater environment and complex space-constrained manoeuvres. In addition, it has improved battery and additional safety mechanisms installed to prevent damage."
+    },
+    {
+        "id": 2,
+        "imgh":"https://varananda.com/wp-content/uploads/2021/03/Car.jpg",
+        "name": "Bot Name2",
+        "description":"Tarang is our third Autonomous Underwater Vehicle. Tarang has a robust, leak-proof and lightweight central hull made from carbon fiber. It has sensors like IMU, DVL and cameras on-board and can efficiently perform tasks like torpedo shooting, localization in an unknown underwater environment and complex space-constrained manoeuvres. In addition, it has improved battery and additional safety mechanisms installed to prevent damage."
+    },
+    {
+        "id": 3,
+        "imgh":"https://varananda.com/wp-content/uploads/2021/03/Car.jpg",
+        "name": "Bot Name3",
+        "description":"Tarang is our third Autonomous Underwater Vehicle. Tarang has a robust, leak-proof and lightweight central hull made from carbon fiber. It has sensors like IMU, DVL and cameras on-board and can efficiently perform tasks like torpedo shooting, localization in an unknown underwater environment and complex space-constrained manoeuvres. In addition, it has improved battery and additional safety mechanisms installed to prevent damage."
+    }
+]

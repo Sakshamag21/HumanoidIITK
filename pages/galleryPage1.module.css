@@ -1,0 +1,67 @@
+.gallery {
+    display: flex;
+    padding: 2px;
+    transition: 0.3s;
+    background-color: black;
+    position: relative;
+    top: 70px;
+}
+.gallery:hover .galleryImage {
+    filter: grayscale(1);
+}
+.galleryColumn {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+.galleryLink {
+    margin: 2px;
+    overflow: hidden;
+}
+.galleryLink:hover .galleryImage {
+    filter: grayscale(0);
+}
+.galleryLink:hover .galleryCaption {
+    opacity: 1;
+}
+.galleryThumb {
+    position: relative;
+}
+.galleryImage {
+    /* display: block; */
+    width: 100%;
+    transition: 0.3s;
+}
+.galleryImage:hover {
+    transform: scale(1.1);
+}
+.gallerycaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /* padding: 25px 15px 15px; */
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: white;
+    opacity: 0;
+    background: linear-gradient(0deg, rgba(0, 0, 0, .5) 0%, rgba(255, 255, 255, 0) 100%);
+    transition: 0.3s;
+}
+
+.pic1{
+    background-image: url("../public/Screenshot1.png");
+    background-size: cover;
+}
+.pic2{
+    background-image: url("../public/Screenshot2.png");
+    background-size: cover;
+}
+.pic3{
+    background-image: url("../public/Screenshot3.png");
+    background-size: cover;
+}
+.pic4{
+    background-image: url("../public/Screenshot4.png");
+    background-size: cover;
+}

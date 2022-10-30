@@ -1,0 +1,19 @@
+
+[
+    {
+        "id": 1,
+        "imgh":"./Arunim_Joarder_Y18.png",
+        "name": "Arunim Joarder",
+        
+        "email": "sakshamag21@iitk.ac.in"
+        
+    },
+    {
+        "id": 2,
+        "imgh":"./Sahil_Kulria.jpg",
+        "name": "Sahil Kulria",
+        
+        "email": "sakshamag21@iitk.ac.in"
+        
+    }
+]

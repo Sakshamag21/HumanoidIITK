@@ -1,0 +1,71 @@
+@keyframes anitry {
+    0%{
+        margin-top: 100px;
+        opacity: 0;
+    }
+    100%{
+        margin-top: 0px;
+        opacity: 1;
+
+    }
+}
+
+.membersBox{
+    width: 100vw;
+    padding: 80px 40px;
+    display: flex;
+    position: relative;
+    top: 100px;
+    z-index: -10;
+    /* background-color: blue; */
+    flex-wrap: wrap;
+    justify-content: center;
+}
+@media screen and (max-width:925px) {
+    .title{
+        font-size: 30px;
+    }
+}
+.title1{
+    animation: anitry 3s;
+    z-index: -1;
+    width: 30vw;
+    
+    top: 100px;
+    margin: 0 35vw;
+    position: relative;
+    display: flex;
+    font-size: 50px;
+    border-bottom: 1px grey solid;
+    
+    align-items: center;
+    justify-content: center;
+    /* color: white; */
+
+}
+.title{
+    animation: anitry 3s;
+    z-index: -1;
+    width: 100vw;
+    height: 200px;
+    top: 80px;
+    /* margin: 0 25vw; */
+    position: relative;
+    display: flex;
+    font-size: 60px;
+    border-bottom: 1px grey solid;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+@media screen and (max-width:925px) {
+    .title{
+        font-size: 30px;
+    }
+}
+.back{
+    
+    background-color: aqua;
+}

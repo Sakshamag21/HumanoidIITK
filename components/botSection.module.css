@@ -1,0 +1,106 @@
+.imgh{
+    float: left;
+    width: 556px;
+    height: 390px;
+    background-color: red;
+    display: block;
+    border-radius: 10px;
+    
+
+}
+.pic1{
+    background-image: url("../public/Screenshot1.png");
+    background-size: cover;
+}
+.pic2{
+    background-image: url("../public/Screenshot2.png");
+    background-size: cover;
+}
+.pic3{
+    background-image: url("../public/Screenshot3.png");
+    background-size: cover;
+}
+.pic4{
+    background-image: url("../public/Screenshot4.png");
+    background-size: cover;
+}
+.nameFont{
+    font-size: 35px;
+
+}
+.desc{
+    float: right;
+    width: 700px;
+    height: 390px;
+    background-color: transparent;
+    display: flex;
+    padding-top: 20px;
+    color: white;
+    font-size: 21px;
+    align-items: center;
+    flex-direction: column;
+    /* right: 20px; */
+}
+
+@media  screen and (max-width:730px) {
+    .imgh{
+        width: 95vw;
+        height: 53vw;
+        margin-left: -2vw;
+    }
+    .desc{
+        width: 90vw;
+        height: 53vw;
+    }
+    
+}
+.botContainer{
+    position: relative;
+    top: 80px;
+    padding: 20px;
+    z-index: -1;
+    width: 100vw;
+    height: 450px;
+    background-color: black;
+    border: 2px solid black;
+}
+
+.buttonRead{
+    width: 200px;
+    height: 40px;
+    font-size: 21px;
+    background-color: rgb(2, 56, 2);
+    color: white ;
+    border: 0 solid;
+    /* font-size: larger; */
+}
+
+.buttonRead:hover{
+    background-color: green;
+}
+
+@media screen and (max-width:1300px) and (min-width:1170px) {
+    .imgh{
+        width: 42vw;
+        height: 30vw;
+    }
+    .desc{
+        width: 53vw;
+        font-size: 1.6vw;
+    }
+    .nameFont{
+        font-size: 1.9vw;
+    }
+    .buttonRead{
+        font-size: 1.6vw;
+        width: 15vw;
+        height: 3vw;
+    }
+}
+
+
+@media screen and (max-width:1170px) {
+    .botContainer{
+        height: 850px;
+    }
+} 

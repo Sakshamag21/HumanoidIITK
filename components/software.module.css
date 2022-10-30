@@ -1,0 +1,46 @@
+
+.containerImage{
+    width: 200px;
+    height: 200px;
+    /* background-color: yellow; */
+    position: relative;
+    margin: 34px;
+}
+.iconSoftware{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.nameIconBack{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+  
+    color: white;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 1000;
+    background-color: black;
+    --top:0;
+    
+    opacity: var(--top);
+
+}
+.nameIcon{
+    position:absolute;
+    top:73px;
+    left: 46px;
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    --top1:1;
+    opacity: var(--top)*2;
+    z-index: 2;
+}
+.nameIconBack:hover{
+    --top:0.8;
+    
+}
