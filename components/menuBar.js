@@ -44,8 +44,8 @@ function MenuBar() {
             
             
                 <button className={styles.menubutton}><Link href="/"><a>Home</a></Link></button>
-                <button className={styles.menubutton} ><Link1 activeClass="active" to="section1" spy={true} smooth={true} offset={-70} duration={50}><Link href="/"><a>About Us</a></Link></Link1></button>
-            <button className={styles.menubutton} ><Link1 activeClass="active" to="section2" spy={true} smooth={true} offset={-70} duration={50}><Link href="/"><a>Contact Us</a></Link></Link1></button>
+                <button className={styles.menubutton} ><Link href="/"><Link1 activeClass="active" to="section1" spy={true} smooth={true} offset={-70} duration={50}>About Us</Link1></Link></button>
+            <button className={styles.menubutton} ><Link href="/"><Link1 activeClass="active" to="section2" spy={true} smooth={true} offset={-70} duration={50}>Contact Us</Link1></Link></button>
             <button className={styles.menubutton}><Link href="/membersPage"><a>Members</a></Link></button>
             <button className={styles.menubutton}><Link href="/alumni"><a>Alumni</a></Link></button>
             <button className={styles.menubutton}><Link href="/botPage"><a>Bots</a></Link></button>
